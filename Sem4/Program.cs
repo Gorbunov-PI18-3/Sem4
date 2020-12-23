@@ -36,11 +36,13 @@ namespace Sem4
                         Console.WriteLine("Your color is cyan!");
                         break;
                     default:
+                        continue;
                         Console.BackgroundColor = ConsoleColor.Yellow;
                         Console.ForegroundColor = ConsoleColor.Red;
 
                         Console.WriteLine("Your color is yellow!");
                         break;
+                    
                 }
 
                 t++;
